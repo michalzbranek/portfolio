@@ -1,5 +1,5 @@
 <template>
-    <nav class="nav">
+    <nav class="nav flex-column">
         <a class="link" href="#">Domů<div class="bla"></div></a>
         <a class="link" href="#">Projekty<div class="bla"></div></a>
         <a class="link" href="#">Galerie<div class="bla"></div></a>
@@ -12,8 +12,7 @@
 .link {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 10px;
-    margin: 0 10px;
+    padding: 10px 0px 10px 20px;
   	position: relative;
 }
 
@@ -25,7 +24,7 @@
 	position: absolute;
     background-color:white;
     z-index: -1;
-    margin-left: -10px;
+    margin-left: -20px;
 }
 
 .link:hover .bla {
