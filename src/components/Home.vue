@@ -1,9 +1,9 @@
 <template>
 <div class="hero-box h-100">
     <div class="hero-image">
-        <div class="hero-text py-4 ps-5">
-            <h1>{{ greeting }}</h1>
-            <p>{{ intro }}</p>
+        <div class="hero-text py-3 ps-5">
+            <h1></h1>
+            <p></p>
         </div>
     </div>
 </div>
@@ -13,8 +13,8 @@
 export default {
     data() {
         return {
-            greeting: 'Vítejte na mých stránkách',
-            intro: 'Jsem Michal Zbranek, programátor ve firmě Tieto'
+            greeting: '',
+            intro: ''
         }
     }
 }
@@ -29,7 +29,7 @@ export default {
   background-image: url("../assets/home.jpg");
   filter: grayscale(1);
   height: 100%;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -43,9 +43,9 @@ export default {
 .hero-text {
   text-align: left;
   position: absolute; 
-  bottom: 0;
+  top: 0;
   color: white;
   background: rgba(0, 0, 0, 0.6);
-  width: 100%;
+  width: 35%;
 }
 </style>

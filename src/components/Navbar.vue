@@ -1,10 +1,10 @@
 <template>
     <nav class="nav flex-column">
-        <a @click="swapComponent('Home')" class="link" href="#">Domů<div class="navigation"></div></a>
-        <a @click="swapComponent('Projects')" class="link" href="#">Projekty<div class="navigation"></div></a>
-        <a @click="swapComponent('Gallery')" class="link" href="#">Galerie<div class="navigation"></div></a>
-        <a @click="swapComponent('About')" class="link" href="#">O mně<div class="navigation"></div></a>
-        <a @click="swapComponent('Contact')" class="link" href="#">Kontakt<div class="navigation"></div></a>
+        <a @click="swapComponent('Home')" class="link" href="#">domů<div class="navigation"></div></a>
+        <a @click="swapComponent('Projects')" class="link" href="#">projekty<div class="navigation"></div></a>
+        <a @click="swapComponent('Gallery')" class="link" href="#">galerie<div class="navigation"></div></a>
+        <a @click="swapComponent('About')" class="link" href="#">o mně<div class="navigation"></div></a>
+        <a @click="swapComponent('Contact')" class="link" href="#">kontakt<div class="navigation"></div></a>
     </nav>
 </template>
 
@@ -20,18 +20,18 @@ export default {
 
 <style>
 .link {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     padding: 10px 0px 10px 20px;
   	position: relative;
 }
 
 .navigation {
-	width: 0px;
+	  width: 0px;
     height: 100%;
     transition: 0.4s;
     margin-top: -45px;
-	position: absolute;
+	  position: absolute;
     background-color:white;
     z-index: -1;
     margin-left: -20px;
