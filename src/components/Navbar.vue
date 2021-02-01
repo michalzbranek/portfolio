@@ -20,7 +20,7 @@ export default {
 
 <style>
 .link {
-    color: white;
+    color: #cccccc;
     text-decoration: none;
     padding: 10px 0px 10px 20px;
   	position: relative;
@@ -30,19 +30,19 @@ export default {
 	  width: 0px;
     height: 100%;
     transition: 0.4s;
-    margin-top: -45px;
+    margin-top: -35px;
 	  position: absolute;
-    background-color:white;
+    background-color:#cccccc;
     z-index: -1;
     margin-left: -20px;
 }
 
 .link:hover .navigation {
-    margin-top: -45px;
+    margin-top: -35px;
     width: 100%;
 }
 
 .link:hover {
-    color: #212529;
+    color: black;
 }
 </style>

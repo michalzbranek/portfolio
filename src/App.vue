@@ -1,10 +1,10 @@
 <template>
-  <div class="row header m-0 border-bottom border-white" style="padding-left: 15%;">
+  <div class="row header m-0" style="padding-left: 15%; border-bottom: 1px solid #cccccc;">
     <div class="row m-0 p-0">
       <div class="col-9 py-4 ps-0">
         <h1 class="m-0">{{ title }}</h1>
       </div>
-      <div class="col-3 border-start border-white"></div>
+      <div class="col-3" style="border-left: 1px solid #cccccc"></div>
     </div>
   </div>
   <div class="row content m-0" style="padding-left: 15%;">
@@ -12,7 +12,7 @@
       <div class="col-9 m-0 pe-0 py-0 ps-0">
           <component :is="currentComponent"></component>
       </div>
-      <div class="col-3 p-0 border-start border-white"><Navbar @swapComponent="swapComponent" /></div>
+      <div class="col-3 p-0" style="border-left: 1px solid #cccccc"><Navbar @swapComponent="swapComponent" /></div>
     </div>
   </div>
 </template>
@@ -53,7 +53,6 @@ export default {
 html, body {
   height: 100%;
   margin: 0;
-  font-size: 1.2rem;
 }
 
 .box {
