@@ -9,8 +9,8 @@
   </div>
   <div class="row content m-0" style="padding-left: 15%;">
     <div class="row h-100 m-0 p-0">
-      <div class="col-9 m-0 p-0">
-          <component :is="currentComponent" class="my-5 me-5 p-0"></component>
+      <div class="col-9 m-0 pe-5 py-5 ps-0">
+          <component :is="currentComponent"></component>
       </div>
       <div class="col-3 p-0" style="border-left: 1px solid grey;"><Navbar @swapComponent="swapComponent" /></div>
     </div>
