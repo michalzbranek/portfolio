@@ -1,17 +1,16 @@
 <template>
   <div class="row header m-0" style="padding-left: 15%; border-bottom: 1px solid grey;">
     <div class="row m-0 p-0">
-      <div class="col-9 p-4">
-        <h1>{{ greeting }}</h1>
-        <p class="lead">Jsem Michal Zbranek, programátor ve firmě Tieto</p>
+      <div class="col-9 py-4 ps-0">
+        <h1 class="m-0">{{ title }}</h1>
       </div>
       <div class="col-3" style="border-left: 1px solid grey"></div>
     </div>
   </div>
   <div class="row content m-0" style="padding-left: 15%;">
     <div class="row h-100 m-0 p-0">
-      <div class="col-9">
-          <component :is="currentComponent"></component>
+      <div class="col-9 m-0 p-0">
+          <component :is="currentComponent" class="my-5 me-5 p-0"></component>
       </div>
       <div class="col-3 p-0" style="border-left: 1px solid grey;"><Navbar @swapComponent="swapComponent" /></div>
     </div>
@@ -38,8 +37,8 @@ export default {
   },
   data() {
     return {
-      greeting: 'Vítejte na mých stránkách',
-      currentComponent: Home
+      currentComponent: Home,
+      title: 'PORTFOLIO'
     }
   },
   methods: {
@@ -72,7 +71,7 @@ html, body {
   display: flex;
   flex-flow: column;
   flex: 1 1 auto;
-  overflow-y: auto;
+  overflow: hidden;
   margin-right: 0;
 }
 </style>
