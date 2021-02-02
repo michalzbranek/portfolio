@@ -1,8 +1,9 @@
 <template>
     <Navbar/>
-    <div>
-        <component :is="currentComponent"></component>
+    <div style="height: 100vh">
+        <Home/>
     </div>
+    <About/>
 </template>
 
 <script>

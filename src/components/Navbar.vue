@@ -7,7 +7,7 @@
         <a @click="swapComponent('Contact')" href="#">kontakt</a>
     </nav> -->
 
-<nav class="navbar navbar-expand-lg p-5 fixed-top fw-bold">
+<nav class="navbar navbar-expand-lg p-4 fixed-top fw-bold">
   <div class="container-fluid">
     <!-- <a class="navbar-brand text-white" href="#">michal zbranek</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,10 +52,10 @@ export default {
 }
 
 .nav-link {
-  color: #acacac;
+  color: white;
 }
 
 .nav-link:hover {
-  color: white;
+  color: #BF35BC;
 }
 </style>
