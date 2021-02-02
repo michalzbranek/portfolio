@@ -1,11 +1,39 @@
 <template>
-    <nav class="nav flex-column">
-        <a @click="swapComponent('Home')" class="link" href="#">domů<div class="navigation"></div></a>
-        <a @click="swapComponent('Projects')" class="link" href="#">projekty<div class="navigation"></div></a>
-        <a @click="swapComponent('Gallery')" class="link" href="#">galerie<div class="navigation"></div></a>
-        <a @click="swapComponent('About')" class="link" href="#">o mně<div class="navigation"></div></a>
-        <a @click="swapComponent('Contact')" class="link" href="#">kontakt<div class="navigation"></div></a>
-    </nav>
+    <!-- <nav class="text-white">
+        <a @click="swapComponent('Home')" href="#">domů</a>
+        <a @click="swapComponent('Projects')" href="#">projekty</a>
+        <a @click="swapComponent('Gallery')" href="#">galerie</a>
+        <a @click="swapComponent('About')" href="#">o mně</a>
+        <a @click="swapComponent('Contact')" href="#">kontakt</a>
+    </nav> -->
+
+<nav class="navbar navbar-expand-lg p-5 fixed-top fw-bold">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand text-white" href="#">michal zbranek</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">domů</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">projekty</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">galerie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">o mně</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 </template>
 
 <script>
@@ -19,30 +47,15 @@ export default {
 </script>
 
 <style>
-.link {
-    color: #cccccc;
-    text-decoration: none;
-    padding: 10px 0px 10px 20px;
-  	position: relative;
+.nav-item {
+  padding-right: 40px;
 }
 
-.navigation {
-	  width: 0px;
-    height: 100%;
-    transition: 0.4s;
-    margin-top: -35px;
-	  position: absolute;
-    background-color:#cccccc;
-    z-index: -1;
-    margin-left: -20px;
+.nav-link {
+  color: #acacac;
 }
 
-.link:hover .navigation {
-    margin-top: -35px;
-    width: 100%;
-}
-
-.link:hover {
-    color: black;
+.nav-link:hover {
+  color: white;
 }
 </style>

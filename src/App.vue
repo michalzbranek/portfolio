@@ -1,20 +1,8 @@
 <template>
-  <div class="row header m-0" style="padding-left: 15%; border-bottom: 1px solid #cccccc;">
-    <div class="row m-0 p-0">
-      <div class="col-9 py-4 ps-0">
-        <h1 class="m-0">{{ title }}</h1>
-      </div>
-      <div class="col-3" style="border-left: 1px solid #cccccc"></div>
+    <Navbar/>
+    <div>
+        <component :is="currentComponent"></component>
     </div>
-  </div>
-  <div class="row content m-0" style="padding-left: 15%;">
-    <div class="row h-100 m-0 p-0">
-      <div class="col-9 m-0 pe-0 py-0 ps-0">
-          <component :is="currentComponent"></component>
-      </div>
-      <div class="col-3 p-0" style="border-left: 1px solid #cccccc"><Navbar @swapComponent="swapComponent" /></div>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -38,7 +26,7 @@ export default {
   data() {
     return {
       currentComponent: Home,
-      title: 'michal zbranek'
+      title: ''
     }
   },
   methods: {
@@ -51,26 +39,8 @@ export default {
 
 <style>
 html, body {
-  height: 100%;
-  margin: 0;
-}
-
-.box {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}
-
-.box .row.header {
-  flex: 0 1 auto;
-  margin-right: 0;
-}
-
-.box .row.content {
-  display: flex;
-  flex-flow: column;
-  flex: 1 1 auto;
-  overflow: hidden;
-  margin-right: 0;
+  background-color: #121113;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 </style>
