@@ -1,8 +1,6 @@
 <template>
     <Navbar/>
-    <div style="height: 100vh">
-        <Home/>
-    </div>
+    <Home/>
     <About/>
 </template>
 
