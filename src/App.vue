@@ -1,7 +1,9 @@
 <template>
     <Navbar/>
     <Home/>
-    <About/>
+    <div style="left: 20vw; position: absolute; width: 70vw;">
+      <About/>
+    </div>
 </template>
 
 <script>

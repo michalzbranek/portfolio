@@ -1,34 +1,11 @@
 <template>
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item border-bottom border-white">
-    <h2 class="accordion-header" id="flush-headingOne">
-      <button class="accordion-button collapsed text-white bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-    </div>
-  </div>
-  <div class="accordion-item border-bottom border-white">
-    <h2 class="accordion-header" id="flush-headingTwo">
-      <button class="accordion-button collapsed text-white bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-    </div>
-  </div>
-  <div class="accordion-item border-bottom border-white">
-    <h2 class="accordion-header" id="flush-headingThree">
-      <button class="accordion-button collapsed text-white bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-    </div>
-  </div>
-</div>
+  <img src="../assets/cropped.jpg" style="width: 25vw;">
+  <h1 class="fw-bold" style="position: absolute; top: 25vw;">o mně</h1>
+  <p style="width: 40vw; top: 35vw; position: absolute;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat varius tortor vitae porttitor. Nunc sit amet nulla eu urna consectetur pretium a vitae odio. Morbi sit amet purus tristique arcu tempus condimentum ac vitae erat. Donec sit amet neque sit amet metus aliquet finibus. Duis pellentesque semper odio ut imperdiet. Mauris gravida est a libero suscipit, sed consectetur felis pretium. Praesent varius felis nec erat finibus imperdiet. Morbi viverra neque at vestibulum euismod. Praesent malesuada lorem non odio mollis, a bibendum nisl efficitur. Mauris dapibus metus eu massa condimentum elementum. Praesent finibus mauris ut pellentesque consectetur.</p>
+  <img src="../assets/cropped_snow.jpg" style="width: 25vw; right: 0; position: absolute;">
+  <img src="../assets/cropped_sea.jpg" style="width: 15vw; right: 22.5vw; top: 10vw; position: absolute;">
 </template>
+
+<style>
+
+</style>
