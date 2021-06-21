@@ -18,13 +18,10 @@
             <a class="nav-link" href="#">domů</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link" href="#">projekty</a>
+            <a class="nav-link" href="#about">o mně</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link" href="#">galerie</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link" href="#">o mně</a>
+            <a class="nav-link" href="#carouselExampleDark">projekty</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link" href="#">kontakt</a>

@@ -1,8 +1,14 @@
 <template>
     <Navbar/>
     <Home/>
-    <div style="left: 20vw; position: absolute; width: 70vw;">
+    <div style="left: 20vw; position: relative; width: 70vw;">
       <About/>
+    </div>
+    <div style="left: 20vw; position: relative; width: 70vw; top: 30em;">
+      <Projects/>
+    </div>
+    <div style="left: 20vw; position: relative; width: 70vw; top: 70em;">
+      <Contact/>
     </div>
 </template>
 
@@ -11,7 +17,6 @@ import Navbar from './components/Navbar.vue'
 import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Home from './components/Home.vue'
-import Gallery from './components/Gallery.vue'
 import Projects from './components/Projects.vue'
 
 export default {
@@ -22,7 +27,6 @@ export default {
     Contact,
     Home,
     Projects,
-    Gallery
   },
   data() {
     return {

@@ -1,40 +1,47 @@
 <template>
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="" class="d-block w-100" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+  <h1 class="fw-bold">projekty</h1>
+  <div style="top: 13vw; position: absolute;">
+    <div class="container">
+      
+      <div class="row">
+        
+        <div class="col p-0 me-3">
+            <img src="../assets/portfolio.png" class="img-fluid">
+        </div>
+
+        <div class="col p-0 m-0">
+
+            <div class="row mb-3">
+              <img src="../assets/blog.png">
+            </div>
+
+            <div class="row">
+              <img src="../assets/fcmalenovice.png">
+            </div>
+
+        </div>
+      
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="" class="d-block w-100" alt="">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
+
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </a>
-</div>
 </template>
+
+<style scoped>
+img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 4%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img:hover {
+    -webkit-filter: brightness(25%);
+    filter: brightness(25%);
+}
+</style>
