@@ -21,10 +21,10 @@
             <a class="nav-link" href="#about">o mně</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link" href="#carouselExampleDark">projekty</a>
+            <a class="nav-link" href="#portfolio">projekty</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link" href="#">kontakt</a>
+            <a class="nav-link" href="#footer">kontakt</a>
           </li>
         </ul>
       </div>

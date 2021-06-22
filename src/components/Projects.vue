@@ -1,5 +1,5 @@
 <template>
-  <h1 class="fw-bold">projekty</h1>
+  <h1 id="portfolio" class="fw-bold">projekty</h1>
   <div style="top: 13vw; position: absolute;">
     <div class="container">
       

@@ -7,7 +7,7 @@
     <div style="left: 20vw; position: relative; width: 70vw; top: 30em;">
       <Projects/>
     </div>
-    <div style="left: 20vw; position: relative; width: 70vw; top: 70em;">
+    <div style="left: 20vw; position: relative; width: 70vw; top: 90em;">
       <Contact/>
     </div>
 </template>
