@@ -6,17 +6,20 @@
       <div class="row">
         
         <div class="col p-0 me-3">
-            <img src="../assets/portfolio.png" class="img-fluid">
+            <img id="portfolio_id" src="../assets/portfolio.png" class="img-fluid">
+            <p id="portfolio_text" style="position: absolute; width: 30%; top: 25%; left: 10%;">Shromáždění mé práce + koníčků. Naučení se frameworku VUE.</p>
         </div>
 
         <div class="col p-0 m-0">
 
             <div class="row mb-3">
-              <img src="../assets/blog.png">
+              <img id="blog_id" src="../assets/blog.png" class="img-fluid">
+              <p id="blog_text" style="position: absolute; width: 30%; top: 10%; left: 60%;">Můj vlastní blog. Naučil jsem se spolupracovat s databází. Kompletní admin systém.</p>
             </div>
 
             <div class="row">
-              <img src="../assets/fcmalenovice.png">
+              <img id="malenovice_id" src="../assets/fcmalenovice.png" class="img-fluid">
+              <p id="malenovice_text" style="position: absolute; width: 30%; top: 60%; left: 60%;">První projekt. Snaha naučit se základy vývoje webových stránek.</p>
             </div>
 
         </div>
@@ -41,7 +44,31 @@ img {
 }
 
 img:hover {
-    -webkit-filter: brightness(25%);
-    filter: brightness(25%);
+  -webkit-filter: brightness(25%);
+  filter: brightness(25%);
+}
+
+#malenovice_text {
+  opacity: 0;
+}
+
+#malenovice_id:hover ~ #malenovice_text {
+  opacity: 1;
+}
+
+#blog_text {
+  opacity: 0;
+}
+
+#blog_id:hover ~ #blog_text {
+  opacity: 1;
+}
+
+#portfolio_text {
+  opacity: 0;
+}
+
+#portfolio_id:hover ~ #portfolio_text {
+  opacity: 1;
 }
 </style>
