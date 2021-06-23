@@ -12,7 +12,7 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 #landing {
     height: 100vh;
     padding-top: 35vh;

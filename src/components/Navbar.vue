@@ -88,13 +88,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .navbar.navbar-dark .nav-link:hover {
-  color: #BF35BC;
+    color: #BF35BC;
 }
 
 .navbar.navbar-dark .nav-link {
-  color: white;
+    color: white;
 }
 
 i:hover {
@@ -113,6 +113,6 @@ i:hover {
 }
 
 .icon {
-  font-size: 3vh;
+    font-size: 3vh;
 }
 </style>

@@ -1,32 +1,32 @@
 <template>
-  <h1 id="portfolio" class="fw-bold">projekty</h1>
-  <div style="top: 13vw; position: absolute;">
-    <div class="container">
+  <div>
+  <h1 id="portfolio" class="fw-bold mb-5" style="">projekty</h1>
+  <div style="position: relative;">
       
       <div class="row">
         
         <div class="col p-0 me-3">
-            <img id="portfolio_id" src="../assets/portfolio.png" class="img-fluid">
-            <p id="portfolio_text" style="position: absolute; width: 30%; top: 25%; left: 10%;">Shromáždění mé práce + koníčků. Naučení se frameworku VUE.</p>
+            <img id="portfolio_id" src="../assets/portfolio.png">
+            <p id="portfolio_text" style="position: absolute; width: 20vw; top: 5vw; left: 5vw;">Shromáždění mé práce + koníčků. Naučení se frameworku VUE.</p>
         </div>
 
         <div class="col p-0 m-0">
 
             <div class="row mb-3">
-              <img id="blog_id" src="../assets/blog.png" class="img-fluid">
-              <p id="blog_text" style="position: absolute; width: 30%; top: 10%; left: 60%;">Můj vlastní blog. Naučil jsem se spolupracovat s databází. Kompletní admin systém.</p>
+              <img id="blog_id" src="../assets/blog.png">
+              <p id="blog_text" style="position: absolute; width: 30vw; top: 2vw; left: 40vw;">Můj vlastní blog. Naučil jsem se spolupracovat s databází. Kompletní admin systém.</p>
             </div>
 
             <div class="row">
-              <img id="malenovice_id" src="../assets/fcmalenovice.png" class="img-fluid">
-              <p id="malenovice_text" style="position: absolute; width: 30%; top: 60%; left: 60%;">První projekt. Snaha naučit se základy vývoje webových stránek.</p>
+              <img id="malenovice_id" src="../assets/fcmalenovice.png">
+              <p id="malenovice_text" style="position: absolute; width: 30vw; top: 20vw; left: 40vw;">První projekt. Snaha naučit se základy vývoje webových stránek.</p>
             </div>
 
         </div>
       
       </div>
 
-    </div>
+  </div>
   </div>
 </template>
 
@@ -40,7 +40,7 @@ img {
   border-radius: 4%;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 img:hover {

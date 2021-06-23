@@ -4,10 +4,10 @@
     <div style="left: 20vw; position: relative; width: 70vw;">
       <About/>
     </div>
-    <div style="left: 20vw; position: relative; width: 70vw; top: 30em;">
+    <div style="left: 20vw; position: relative; width: 70vw; top: 10vh;">
       <Projects/>
     </div>
-    <div style="left: 20vw; position: relative; width: 70vw; top: 90em;">
+    <div style="left: 20vw; position: relative; width: 70vw; top: 20vh;">
       <Contact/>
     </div>
 </template>
