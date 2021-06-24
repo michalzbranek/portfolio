@@ -14,7 +14,7 @@
 
             <div class="row mb-3">
               <img id="blog_id" src="../assets/blog.png">
-              <p id="blog_text" style="position: absolute; width: 30vw; top: 2vw; left: 40vw;">Můj vlastní blog. Naučil jsem se spolupracovat s databází. Kompletní admin systém.</p>
+              <p id="blog_text" style="position: absolute; width: 30vw; top: 0vw; left: 40vw;">Můj vlastní blog. Spolupráce s databází. Kompletní admin systém.</p>
             </div>
 
             <div class="row">
@@ -70,5 +70,11 @@ img:hover {
 
 #portfolio_id:hover ~ #portfolio_text {
   opacity: 1;
+}
+
+@media (max-width: 768px) {  
+  p {
+      font-size: 10px !important;
+  }
 }
 </style>

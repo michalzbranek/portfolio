@@ -3,7 +3,7 @@
     <img src="../assets/cropped_snow.jpg" style="top: 7vw; width: 25vw; left: 20vw; position: relative;">
     <img src="../assets/cropped_sea.jpg" style="width: 15vw; right: 17vw; top: 8vw; position: relative;">
     <h1 class="fw-bold" style="position: relative;">o mně</h1>
-    <p style="width: 40vw; position: relative;">
+    <p style="width: 70vw; position: relative;">
       Čauko! Jmenuju se Michal Zbranek.
       Portfolio jsem si vytvořil z toho důvodu, abych se trochu seznámil s frameworkem VUE a měl mé různé koníčky pohromadě.
       Mezi odkazy například najdete i mé kreslení a vlastní blog.
@@ -13,12 +13,18 @@
     </p>    
 </template>
 
-<style>
+<style scoped>
 img {
   border-radius: 3%;
 }
 
 h1 {
   font-size: 8vw;
+}
+
+@media (min-width: 768px) {  
+  p {
+      width: 40vw !important;
+  }
 }
 </style>
