@@ -1,7 +1,6 @@
 <template>
-  <div>
   <h1 id="portfolio" class="fw-bold mb-5" style="">projekty</h1>
-  <div style="position: relative;">
+  <div class="d-none d-sm-block" style="position: relative;">
       
       <div class="row">
         
@@ -27,7 +26,24 @@
       </div>
 
   </div>
+
+  <div class="d-sm-none" style="position: relative;">
+    
+    <img id="portfolio_id" src="../assets/portfolio.png">
+    <p id="portfolio_text" style="position: absolute; width: 20vw; top: 5vw; left: 5vw;">Shromáždění mé práce + koníčků. Naučení se frameworku VUE.</p>
+        
+    <hr style="opacity: 1;">
+
+    <img id="blog_id" src="../assets/blog.png">
+    <p id="blog_text" style="position: absolute; width: 30vw; top: 80vw; left: 10vw;">Můj vlastní blog. Spolupráce s databází. Kompletní admin systém.</p>
+
+    <hr style="opacity: 1;">
+
+    <img id="malenovice_id" src="../assets/fcmalenovice.png">
+    <p id="malenovice_text" style="position: absolute; width: 30vw; top: 110vw; left: 10vw;">První projekt. Snaha naučit se základy vývoje webových stránek.</p>
+
   </div>
+
 </template>
 
 <style scoped>
