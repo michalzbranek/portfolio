@@ -1,6 +1,6 @@
 <template>
-    <hr id="footer" style="opacity: 1;">
-    <footer class="text-center pb-4 mt-5">
+  <h1 id="portfolio" class="fw-bold mb-5" style="">kontakt</h1>
+    <footer class="pb-4 mt-5">
         <p>
             <i class="bi bi-phone-fill" style="font-size: 1.5rem;"></i>
             +420 731 840 268
