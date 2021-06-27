@@ -93,4 +93,8 @@ img:hover {
       font-size: 10px !important;
   }
 }
+
+h1 {
+  font-size: 8vw;
+}
 </style>

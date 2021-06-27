@@ -1,5 +1,5 @@
 <template>
-  <h1 id="portfolio" class="fw-bold mb-5" style="">kontakt</h1>
+  <h1 id="footer" class="fw-bold mb-5" style="">kontakt</h1>
     <footer class="pb-4 mt-5">
         <p>
             <i class="bi bi-phone-fill" style="font-size: 1.5rem;"></i>
@@ -28,5 +28,9 @@ a:hover {
 
 .bi {
     vertical-align: -0.175em;
+}
+
+h1 {
+  font-size: 8vw;
 }
 </style>
