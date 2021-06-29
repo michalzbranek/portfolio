@@ -30,8 +30,16 @@ h1 {
   h1 {
       font-size: 6vw;
   }
+
   .title {
       font-size: 3vw;
   }
+}
+
+@media (max-width: 992px) {
+    #landing {
+      padding-top: 20vh !important;
+      left: 10vw !important;
+    }
 }
 </style>

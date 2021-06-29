@@ -5,7 +5,7 @@
             <i class="bi bi-phone-fill" style="font-size: 1.5rem;"></i>
             +420 731 840 268
         </p>
-        <p>
+        <p id="mail">
             <i class="bi bi-envelope-fill" style="font-size: 1.5rem;"></i>
             &nbsp;
             <a href="mailto:michal.zbranek.1@gmail.com">
@@ -32,5 +32,11 @@ a:hover {
 
 h1 {
   font-size: 8vw;
+}
+
+@media (max-width: 576px) {
+  #mail {
+      font-size: 15px;
+  }
 }
 </style>

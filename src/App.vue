@@ -1,13 +1,13 @@
 <template>
     <Navbar/>
     <Home/>
-    <div class="content">
+    <div class="bla">
       <About/>
     </div>
-    <div class="content" style="top: 10vh;">
+    <div class="bla" style="top: 10vh;">
       <Projects/>
     </div>
-    <div class="content" style="top: 20vh;">
+    <div class="bla" style="top: 20vh;">
       <Contact/>
     </div>
 </template>
@@ -50,16 +50,13 @@ html, body {
 }
 
 @media (max-width: 992px) {  
-  .content {
+  .bla {
       left: 10vw !important;
       width: 80vw !important;
   }
-  p {
-    width: 100% !important;
-  }
 }
 
-.content {
+.bla {
   position: relative;
   left: 20vw;
   width: 70vw;
