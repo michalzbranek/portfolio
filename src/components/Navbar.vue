@@ -8,8 +8,8 @@
     </nav> -->
   <nav class="navbar navbar-expand-lg p-4 fw-bold fixed-top navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand ps-lg-4" href="#">M.Zbranek</a>
-      <button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<!--       <a class="navbar-brand ps-lg-4" href="#">M.Zbranek</a>
+ -->      <button class="border-0 navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-grip-lines fa-2x text-white"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">

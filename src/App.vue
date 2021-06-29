@@ -1,13 +1,13 @@
 <template>
     <Navbar/>
     <Home/>
-    <div style="left: 20vw; position: relative; width: 70vw;">
+    <div class="content">
       <About/>
     </div>
-    <div style="left: 20vw; position: relative; width: 70vw; top: 10vh;">
+    <div class="content" style="top: 10vh;">
       <Projects/>
     </div>
-    <div style="left: 20vw; position: relative; width: 70vw; top: 20vh;">
+    <div class="content" style="top: 20vh;">
       <Contact/>
     </div>
 </template>
@@ -47,5 +47,21 @@ html, body {
   background-color: #121113;
   font-family: 'Poppins', sans-serif;
   color: white;
+}
+
+@media (max-width: 992px) {  
+  .content {
+      left: 10vw !important;
+      width: 80vw !important;
+  }
+  p {
+    width: 100% !important;
+  }
+}
+
+.content {
+  position: relative;
+  left: 20vw;
+  width: 70vw;
 }
 </style>
