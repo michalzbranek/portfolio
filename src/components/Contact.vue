@@ -36,7 +36,7 @@ h1 {
 
 @media (max-width: 576px) {
   #mail {
-      font-size: 15px;
+      font-size: 4vw;
   }
 }
 </style>
