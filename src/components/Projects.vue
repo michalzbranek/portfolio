@@ -1,6 +1,6 @@
 <template>
   <h1 id="portfolio" class="fw-bold mb-5" style="">projekty</h1>
-  <div class="d-none d-sm-block" style="position: relative;">
+<!--   <div class="d-none d-sm-block" style="position: relative;">
       
       <div class="row">
         
@@ -42,24 +42,45 @@
     <img id="malenovice_id" src="../assets/fcmalenovice.png">
     <p id="malenovice_text" style="position: absolute; width: 30vw; top: 110vw; left: 10vw;">První projekt. Snaha naučit se základy vývoje webových stránek.</p>
 
+  </div> -->
+
+<div class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/blog.png" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/fcmalenovice.png" class="d-block w-100">
+    </div>
   </div>
+</div>
 
 </template>
 
 <style scoped>
-img {
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  border-radius: 4%;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.carousel {
+    height: 32vw;
 }
 
-img:hover {
+.carousel-inner {
+    height: 100%;
+}            
+
+.carousel-item {
+    width: 100%;
+    height: 100%;                
+}
+
+.carousel-item img {
+    object-fit: cover;
+/*
+    object-fit: fill;
+    object-fit: none;
+    object-fit: contain;
+    object-fit: scale-down;
+*/
+}
+/* img:hover {
   -webkit-filter: brightness(25%);
   filter: brightness(25%);
 }
@@ -92,7 +113,7 @@ img:hover {
   p {
       font-size: 10px !important;
   }
-}
+} */
 
 h1 {
   font-size: 8vw;
