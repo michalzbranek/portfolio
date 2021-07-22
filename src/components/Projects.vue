@@ -3,12 +3,16 @@
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="../assets/copy1.png" class="d-block w-100" alt="...">
+        <a href="https://michalzbranekblog.herokuapp.com/">
+          <img src="../assets/copy1.png" class="d-block w-100">
+        </a>
         <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="../assets/copy2.png" class="d-block w-100" alt="...">
+        <a href="https://michalzbranek.github.io/fcmalenovice/">
+          <img src="../assets/copy3.png" class="d-block w-100">
+        </a>
         <div class="carousel-caption d-none d-md-block">
         </div>
       </div>
