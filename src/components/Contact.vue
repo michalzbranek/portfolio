@@ -12,7 +12,7 @@
                 michal.zbranek.1@gmail.com
             </a>
         </p>
-        <p>© 2021 All rights reserved</p>
+        <p>© 2022 All rights reserved</p>
     </footer>
 </template>
 

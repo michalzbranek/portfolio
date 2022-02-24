@@ -46,7 +46,7 @@
               <a class="text-white" href="https://twitter.com/BliXer27" target="_blank"><i class="bi bi-twitter icon"></i></a>
           </div>
           <div class="mb-2">
-              <a class="text-white" href="http://michalzbranek.herokuapp.com/" target="_blank"><i class="bi bi-pen-fill icon"></i></a>
+              <a class="text-white" href="https://michalzbranekblog.herokuapp.com/" target="_blank"><i class="bi bi-pen-fill icon"></i></a>
           </div>
           <div class="mb-2">
               <a class="text-white" href="https://photos.app.goo.gl/FhVVwwoVSkEYyYtU6" target="_blank"><i class="bi bi-image-fill icon"></i></a>
@@ -69,7 +69,7 @@
               <a class="text-white" href="https://twitter.com/BliXer27" target="_blank"><i class="bi bi-twitter icon"></i></a>
           </div>
           <div class="mb-2">
-              <a class="text-white" href="http://michalzbranek.herokuapp.com/" target="_blank"><i class="bi bi-pen-fill icon"></i></a>
+              <a class="text-white" href="https://michalzbranekblog.herokuapp.com/" target="_blank"><i class="bi bi-pen-fill icon"></i></a>
           </div>
           <div class="mb-2">
               <a class="text-white" href="https://photos.app.goo.gl/FhVVwwoVSkEYyYtU6" target="_blank"><i class="bi bi-image-fill icon"></i></a>
