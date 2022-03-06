@@ -6,17 +6,25 @@
         <a href="https://michalzbranekblog.herokuapp.com/" target="_blank">
           <img src="../assets/copy1.png" class="d-block w-100">
         </a>
-      <div class="carousel-caption d-none d-md-block">
-        <h4>Tento blog jsem si vytvořil pro mé psaní. Ukazuje použití Heroku platformy, Javascript, Node.js a používá MongoDB databázi.</h4>
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="rounded-3">Tento blog jsem si vytvořil pro mé psaní. Ukazuje použití Heroku platformy, Javascript, Node.js a používá MongoDB databázi.</h4>
+        </div>
       </div>
-      </div>
-      <div class="carousel-item">
+      <div class="carousel-item rounded">
         <a href="https://michalzbranek.github.io/fcmalenovice/" target="_blank">
           <img src="../assets/copy3.png" class="d-block w-100">
         </a>
-      <div class="carousel-caption d-none d-md-block">
-        <h4>Tento web jsem vytvořil pro fotbalový klub, ve kterém jsem dříve hrával. Web používá pouze HTML a CSS a slouží tak pro zachycení základních znalostí vývoje webu.</h4>
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="rounded-3">Tento web jsem vytvořil pro fotbalový klub. Web používá pouze HTML a CSS a slouží tak pro zachycení základních znalostí vývoje webu.</h4>
+        </div>
       </div>
+      <div class="carousel-item">
+        <a href="https://michalzbranek.github.io/portfolio/" target="_blank">
+          <img src="../assets/main.png" class="d-block w-100">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h4 class="rounded-3">Webová stránka, na které zrovna jste. K předchozím znalostem je přidána i schopnost využití Javascriptového Frameworku Vue.</h4>
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -38,6 +46,7 @@ h1 {
 }
 
 h4 {
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 </style>
