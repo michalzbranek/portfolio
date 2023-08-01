@@ -12,7 +12,7 @@
                 michal.zbranek.1@gmail.com
             </a>
         </p>
-        <p>© 2022 All rights reserved</p>
+        <p>© 2023 All rights reserved</p>
     </footer>
 </template>
 
@@ -20,6 +20,11 @@
 a {
     color: white;
     text-decoration: none;
+    font-size: 1vw;
+}
+
+p {
+    font-size: 1vw;
 }
 
 a:hover {
@@ -31,7 +36,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 8vw;
+  font-size: 5vw;
 }
 
 @media (max-width: 576px) {

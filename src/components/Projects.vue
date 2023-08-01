@@ -1,6 +1,6 @@
 <template>
   <h1 id="portfolio" class="fw-bold mb-5" style="">projekty</h1>
-  <div id="carouselExampleDark" data-bs-interval="false" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+  <!-- <div id="carouselExampleDark" data-bs-interval="false" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <a href="https://michalzbranekblog.herokuapp.com/" target="_blank">
@@ -35,14 +35,14 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> -->
 
   
 </template>
 
 <style scoped>
 h1 {
-  font-size: 8vw;
+  font-size: 5vw;
 }
 
 h4 {

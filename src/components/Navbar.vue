@@ -13,7 +13,7 @@
         <i class="fas fa-grip-lines fa-2x text-white"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5" style="text-align: right;">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-2" style="text-align: right;">
           <li class="nav-item px-lg-4">
             <a class="nav-link" href="#">domů</a>
           </li>
