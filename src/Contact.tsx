@@ -4,9 +4,8 @@ function Contact() {
   return (
     <Box sx={{ py: 10 }}>
       <Typography
-        sx={{ pl: "10%" }}
+        sx={{ pl: "10%", fontSize: { xs: "10vw", sm: "4vw" } }}
         fontFamily={"Russo One"}
-        variant="h2"
         gutterBottom
       >
         KONTAKT

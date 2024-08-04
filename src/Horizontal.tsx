@@ -113,7 +113,7 @@ function Horizontal({
   return (
     <>
       <AppBar
-        sx={{ backgroundColor: "black", py: 5 }}
+        sx={{ backgroundColor: "black", py: { xs: 2, sm: 5 } }}
         component="nav"
         position="sticky"
       >
@@ -124,7 +124,6 @@ function Horizontal({
             edge="start"
             onClick={handleDrawerToggle}
             sx={{
-              mr: 3,
               pl: 3,
               display: { sm: "none" },
             }}

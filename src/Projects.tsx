@@ -5,6 +5,7 @@ import {
   ImageListItem,
   ImageListItemBar,
   Typography,
+  useMediaQuery,
 } from "@mui/material";
 import blog from "/blog.png";
 import fcmalenovice from "/fcmalenovice.png";
@@ -29,12 +30,24 @@ const itemData = [
 ];
 
 function Projects() {
+  const matches = useMediaQuery("(min-width:600px)");
+
   return (
     <Box sx={{ pt: 10, pl: "10%" }}>
-      <Typography fontFamily={"Russo One"} variant="h2" gutterBottom>
+      <Typography
+        fontFamily={"Russo One"}
+        sx={{ fontSize: { xs: "10vw", sm: "4vw" } }}
+        gutterBottom
+      >
         PROJEKTY
       </Typography>
-      <ImageList sx={{ pr: "10%" }} cols={2}>
+      <ImageList
+        cols={matches ? 2 : 1}
+        sx={{
+          pr: "10%",
+          gridTemplateColumns: { xs: "1", sm: "3" },
+        }}
+      >
         {itemData.map((item, index) => (
           <ImageListItem key={index}>
             <img
@@ -54,7 +67,10 @@ function Projects() {
                     ":hover": { backgroundColor: "aquamarine", color: "black" },
                   }}
                 >
-                  <Typography fontFamily={"Russo One"} variant="h5">
+                  <Typography
+                    fontFamily={"Russo One"}
+                    sx={{ fontSize: { xs: "3vw", sm: "1vw" } }}
+                  >
                     {item.title}
                   </Typography>
                 </Button>

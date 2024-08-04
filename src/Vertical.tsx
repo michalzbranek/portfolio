@@ -9,7 +9,10 @@ import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 function Vertical() {
   return (
     <>
-      <Box position={"fixed"} pt={45} sx={{ pl: "2%" }}>
+      <Box
+        position={"fixed"}
+        sx={{ pl: { xs: "0%", sm: "2%" }, pt: { xs: 28, sm: 40 } }}
+      >
         <AppBar
           sx={{
             backgroundColor: "black",
