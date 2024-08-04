@@ -14,8 +14,24 @@ import {
 import MenuIcon from "@mui/icons-material/Menu";
 
 // @ts-ignore: Object is possibly 'null'.
-function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
-
+function Horizontal({
+  // @ts-ignore: Object is possibly 'null'.
+  container,
+  // @ts-ignore: Object is possibly 'null'.
+  mobileOpen,
+  // @ts-ignore: Object is possibly 'null'.
+  drawerWidth,
+  // @ts-ignore: Object is possibly 'null'.
+  handleDrawerToggle,
+  // @ts-ignore: Object is possibly 'null'.
+  scrollToHome,
+  // @ts-ignore: Object is possibly 'null'.
+  scrollToAbout,
+  // @ts-ignore: Object is possibly 'null'.
+  scrollToProjects,
+  // @ts-ignore: Object is possibly 'null'.
+  scrollToContact,
+}) {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
@@ -24,7 +40,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
       <List>
         <ListItem disablePadding>
           <ListItemButton
-            // onClick={scrollToHome}
+            onClick={scrollToHome}
             sx={{
               textAlign: "center",
               color: "white",
@@ -41,7 +57,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton
-            // onClick={scrollToResult}
+            onClick={scrollToAbout}
             sx={{
               textAlign: "center",
               color: "white",
@@ -58,7 +74,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton
-            // onClick={scrollToGallery}
+            onClick={scrollToProjects}
             sx={{
               textAlign: "center",
               color: "white",
@@ -75,7 +91,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton
-            // onClick={scrollToTable}
+            onClick={scrollToContact}
             sx={{
               textAlign: "center",
               color: "white",
@@ -127,7 +143,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
             }}
           >
             <Button
-              // onClick={scrollToHome}
+              onClick={scrollToHome}
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -143,7 +159,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
               </Typography>
             </Button>
             <Button
-              // onClick={scrollToResult}
+              onClick={scrollToAbout}
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -159,7 +175,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
               </Typography>
             </Button>
             <Button
-              // onClick={scrollToGallery}
+              onClick={scrollToProjects}
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -175,7 +191,7 @@ function Horizontal({container, mobileOpen, drawerWidth, handleDrawerToggle}) {
               </Typography>
             </Button>
             <Button
-              // onClick={scrollToTable}
+              onClick={scrollToContact}
               sx={{
                 color: "#fff",
                 mx: 1,
