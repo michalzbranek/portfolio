@@ -25,7 +25,8 @@ function Vertical() {
             }}
           >
             <IconButton
-              // onClick={scrollToResult}
+              target="_blank"
+              href="https://www.instagram.com/michal.zbranek/"
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -40,7 +41,8 @@ function Vertical() {
               <InstagramIcon />
             </IconButton>
             <IconButton
-              // onClick={scrollToResult}
+              target="_blank"
+              href="https://www.facebook.com/BliXer/"
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -54,7 +56,8 @@ function Vertical() {
               <FacebookIcon />
             </IconButton>
             <IconButton
-              // onClick={scrollToResult}
+              target="_blank"
+              href="https://www.linkedin.com/in/michal-zbranek-8a5421124/"
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -69,7 +72,8 @@ function Vertical() {
               <LinkedInIcon />
             </IconButton>
             <IconButton
-              // onClick={scrollToResult}
+              target="_blank"
+              href="https://x.com/BliXer27"
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -84,7 +88,8 @@ function Vertical() {
               <XIcon />
             </IconButton>
             <IconButton
-              // onClick={scrollToResult}
+              target="_blank"
+              href="https://michalzbranek.github.io/blog/"
               sx={{
                 color: "#fff",
                 mx: 1,
@@ -99,7 +104,8 @@ function Vertical() {
               <BookIcon />
             </IconButton>
             <IconButton
-              // onClick={scrollToResult}
+              target="_blank"
+              href="https://photos.app.goo.gl/FhVVwwoVSkEYyYtU6"
               sx={{
                 color: "#fff",
                 mx: 1,
