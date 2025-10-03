@@ -10,13 +10,13 @@ function Contact() {
       >
         KONTAKT
       </Typography>
-      <Typography fontFamily={"Russo One"} sx={{ px: "10%" }} gutterBottom>
+      <Typography fontFamily={"Russo One"} sx={{ px: "10%", fontSize: { xs: "4vw", sm: "2vw", md: "1.5vw", lg: "1.2vw" } }} gutterBottom>
         +420 731 840 268
       </Typography>
-      <Typography fontFamily={"Russo One"} sx={{ px: "10%" }} gutterBottom>
+      <Typography fontFamily={"Russo One"} sx={{ px: "10%", fontSize: { xs: "4vw", sm: "2vw", md: "1.5vw", lg: "1.2vw" } }} gutterBottom>
         michal.zbranek.1@gmail.com
       </Typography>
-      <Typography fontFamily={"Russo One"} sx={{ px: "10%" }} gutterBottom>
+      <Typography fontFamily={"Russo One"} sx={{ px: "10%", fontSize: { xs: "4vw", sm: "2vw", md: "1.5vw", lg: "1.2vw" } }} gutterBottom>
         © 2024 All rights reserved
       </Typography>
     </Box>

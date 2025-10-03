@@ -10,7 +10,7 @@ function About() {
       >
         O MNĚ
       </Typography>
-      <Typography fontFamily={"Russo One"} sx={{ px: "10%" }} gutterBottom>
+      <Typography fontFamily={"Russo One"} sx={{ px: "10%", fontSize: { xs: "4vw", sm: "2vw", md: "1.5vw", lg: "1.2vw" } }} gutterBottom>
         Ahoj! Jmenuju se Michal Zbranek. Portfolio jsem si vytvořil z toho
         důvodu, abych mohl ukázat všechny projekty, které jsem vytvářel v
         Reactu. Vystudoval jsem Fakultu Informatiky v Brně a nyní bydlím ve
