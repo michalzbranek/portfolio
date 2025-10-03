@@ -11,7 +11,11 @@ function Vertical() {
     <>
       <Box
         position={"fixed"}
-        sx={{ pl: { xs: "0%", sm: "2%" }, pt: { xs: 28, sm: 40 } }}
+        sx={{
+          pl: { xs: "0%", sm: "2%" },
+          bottom: 0,
+          pb: { xs: 4, sm: 6 },
+        }}
       >
         <AppBar
           sx={{
@@ -35,7 +39,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -53,7 +57,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -71,7 +75,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -89,7 +93,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -107,7 +111,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -125,7 +129,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
