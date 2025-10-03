@@ -34,13 +34,15 @@ function Vertical() {
                 color: "#fff",
                 mx: 1,
                 my: 1,
+                "& .MuiSvgIcon-root": {
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                },
                 ":hover": {
                   backgroundColor: "Aquamarine",
                   color: "black",
                 },
               }}
             >
-              {" "}
               <InstagramIcon />
             </IconButton>
             <IconButton
@@ -50,6 +52,9 @@ function Vertical() {
                 color: "#fff",
                 mx: 1,
                 my: 1,
+                "& .MuiSvgIcon-root": {
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                },
                 ":hover": {
                   backgroundColor: "Aquamarine",
                   color: "black",
@@ -65,13 +70,15 @@ function Vertical() {
                 color: "#fff",
                 mx: 1,
                 my: 1,
+                "& .MuiSvgIcon-root": {
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                },
                 ":hover": {
                   backgroundColor: "Aquamarine",
                   color: "black",
                 },
               }}
             >
-              {" "}
               <LinkedInIcon />
             </IconButton>
             <IconButton
@@ -81,13 +88,15 @@ function Vertical() {
                 color: "#fff",
                 mx: 1,
                 my: 1,
+                "& .MuiSvgIcon-root": {
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                },
                 ":hover": {
                   backgroundColor: "Aquamarine",
                   color: "black",
                 },
               }}
             >
-              {" "}
               <XIcon />
             </IconButton>
             <IconButton
@@ -97,13 +106,15 @@ function Vertical() {
                 color: "#fff",
                 mx: 1,
                 my: 1,
+                "& .MuiSvgIcon-root": {
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                },
                 ":hover": {
                   backgroundColor: "Aquamarine",
                   color: "black",
                 },
               }}
             >
-              {" "}
               <BookIcon />
             </IconButton>
             <IconButton
@@ -113,13 +124,15 @@ function Vertical() {
                 color: "#fff",
                 mx: 1,
                 my: 1,
+                "& .MuiSvgIcon-root": {
+                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 }
+                },
                 ":hover": {
                   backgroundColor: "Aquamarine",
                   color: "black",
                 },
               }}
             >
-              {" "}
               <PhotoLibraryIcon />
             </IconButton>
           </Toolbar>
