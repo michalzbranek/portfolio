@@ -9,7 +9,6 @@ import {
 } from "@mui/material";
 import blog from "/blog.png";
 import fcmalenovice from "/fcmalenovice.png";
-import todolist from "/todolist.png";
 
 const itemData = [
   {
@@ -21,11 +20,6 @@ const itemData = [
     img: fcmalenovice,
     title: "FC Malenovice",
     href: "https://michalzbranek.github.io/fcmalenovice/",
-  },
-  {
-    img: todolist,
-    title: "Todolist",
-    href: "https://michalzbranek.github.io/todolist/",
   },
 ];
 
