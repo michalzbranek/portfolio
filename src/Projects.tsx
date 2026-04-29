@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Box,
   Button,
@@ -29,8 +30,7 @@ function Projects() {
   return (
     <Box sx={{ pt: 10, pl: "10%" }}>
       <Typography
-        fontFamily={"Russo One"}
-        sx={{ fontSize: { xs: "10vw", sm: "4vw" } }}
+        sx={{ fontSize: { xs: "8vw", sm: "3vw" }, fontFamily: "Russo One" }}
         gutterBottom
       >
         PROJEKTY
@@ -62,8 +62,10 @@ function Projects() {
                   }}
                 >
                   <Typography
-                    fontFamily={"Russo One"}
-                    sx={{ fontSize: { xs: "3vw", sm: "1vw" } }}
+                    sx={{
+                      fontSize: { xs: "2.5vw", sm: "0.8vw" },
+                      fontFamily: "Russo One",
+                    }}
                   >
                     {item.title}
                   </Typography>

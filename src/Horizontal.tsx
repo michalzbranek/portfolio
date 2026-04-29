@@ -1,3 +1,4 @@
+import React from "react";
 import {
   AppBar,
   Box,
@@ -51,7 +52,7 @@ function Horizontal({
             }}
           >
             <ListItemText>
-              <Typography fontSize={{ xs: "6vw" }} fontFamily={"Russo One"}>DOMŮ</Typography>
+              <Typography sx={{ fontSize: { xs: "5vw" }, fontFamily: "Russo One" }}>DOMŮ</Typography>
             </ListItemText>
           </ListItemButton>
         </ListItem>
@@ -68,7 +69,7 @@ function Horizontal({
             }}
           >
             <ListItemText>
-              <Typography fontSize={{ xs: "6vw" }} fontFamily={"Russo One"}>O MNĚ</Typography>
+              <Typography sx={{ fontSize: { xs: "5vw" }, fontFamily: "Russo One" }}>O MNĚ</Typography>
             </ListItemText>
           </ListItemButton>
         </ListItem>
@@ -85,7 +86,7 @@ function Horizontal({
             }}
           >
             <ListItemText>
-              <Typography fontSize={{ xs: "6vw" }} fontFamily={"Russo One"}>PROJEKTY</Typography>
+              <Typography sx={{ fontSize: { xs: "5vw" }, fontFamily: "Russo One" }}>PROJEKTY</Typography>
             </ListItemText>
           </ListItemButton>
         </ListItem>
@@ -102,7 +103,7 @@ function Horizontal({
             }}
           >
             <ListItemText>
-              <Typography fontSize={{ xs: "6vw" }} fontFamily={"Russo One"}>KONTAKT</Typography>
+              <Typography sx={{ fontSize: { xs: "5vw" }, fontFamily: "Russo One" }}>KONTAKT</Typography>
             </ListItemText>
           </ListItemButton>
         </ListItem>
@@ -153,7 +154,7 @@ function Horizontal({
                 },
               }}
             >
-              <Typography fontSize={{ sm: 25, md: 30, lg: 35 }} fontFamily={"Russo One"}>
+              <Typography sx={{ fontSize: { sm: 18, md: 22, lg: 25 }, fontFamily: "Russo One" }}>
                 DOMŮ{" "}
               </Typography>
             </Button>
@@ -169,7 +170,7 @@ function Horizontal({
                 },
               }}
             >
-              <Typography fontSize={{ sm: 25, md: 30, lg: 35 }} fontFamily={"Russo One"}>
+              <Typography sx={{ fontSize: { sm: 18, md: 22, lg: 25 }, fontFamily: "Russo One" }}>
                 O MNĚ{" "}
               </Typography>
             </Button>
@@ -185,7 +186,7 @@ function Horizontal({
                 },
               }}
             >
-              <Typography fontSize={{ sm: 25, md: 30, lg: 35 }} fontFamily={"Russo One"}>
+              <Typography sx={{ fontSize: { sm: 18, md: 22, lg: 25 }, fontFamily: "Russo One" }}>
                 PROJEKTY{" "}
               </Typography>
             </Button>
@@ -200,7 +201,7 @@ function Horizontal({
                 },
               }}
             >
-              <Typography fontSize={{ sm: 25, md: 30, lg: 35 }} fontFamily={"Russo One"}>
+              <Typography sx={{ fontSize: { sm: 18, md: 22, lg: 25 }, fontFamily: "Russo One" }}>
                 KONTAKT
               </Typography>
             </Button>

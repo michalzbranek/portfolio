@@ -1,3 +1,4 @@
+import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -39,7 +40,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
+                  fontSize: { xs: 20, sm: 24, md: 28, lg: 32 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -57,7 +58,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
+                  fontSize: { xs: 20, sm: 24, md: 28, lg: 32 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -75,7 +76,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
+                  fontSize: { xs: 20, sm: 24, md: 28, lg: 32 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -93,7 +94,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
+                  fontSize: { xs: 20, sm: 24, md: 28, lg: 32 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -111,7 +112,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
+                  fontSize: { xs: 20, sm: 24, md: 28, lg: 32 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
@@ -129,7 +130,7 @@ function Vertical() {
                 mx: 1,
                 my: 1,
                 "& .MuiSvgIcon-root": {
-                  fontSize: { xs: 24, sm: 30, md: 35, lg: 40 },
+                  fontSize: { xs: 20, sm: 24, md: 28, lg: 32 },
                 },
                 ":hover": {
                   backgroundColor: "Aquamarine",
