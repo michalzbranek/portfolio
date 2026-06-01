@@ -22,10 +22,9 @@ function About() {
         gutterBottom
       >
         Ahoj! Jmenuju se Michal Zbranek. Portfolio jsem si vytvořil z toho
-        důvodu, abych mohl ukázat všechny projekty, které jsem vytvářel v
-        Reactu. Vystudoval jsem Fakultu Informatiky v Brně a nyní bydlím ve
-        Zlíně. Pracuju v Koale42 na pozici Testera a snažím se dostat na pozici
-        Developera.
+        důvodu, abych mohl ukázat všechny projekty, které jsem vytvářel.
+        Vystudoval jsem Fakultu Informatiky v Brně a nyní bydlím ve
+        Zlíně. Pracuju v Koale42 na pozici FE Developera.
       </Typography>
     </Box>
   );
