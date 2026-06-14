@@ -1,9 +1,12 @@
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import XIcon from "@mui/icons-material/X";
-import BookIcon from "@mui/icons-material/Book";
-import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
+// Named barrel imports required under vite 8 (rolldown) — per-path default imports break CJS interop
+import {
+  Instagram as InstagramIcon,
+  Facebook as FacebookIcon,
+  LinkedIn as LinkedInIcon,
+  X as XIcon,
+  Book as BookIcon,
+  PhotoLibrary as PhotoLibraryIcon,
+} from "@mui/icons-material";
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 
 function Vertical() {

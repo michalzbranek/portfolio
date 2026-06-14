@@ -11,7 +11,8 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
+// Named barrel import required under vite 8 (rolldown) — per-path default imports break CJS interop
+import { Menu as MenuIcon } from "@mui/icons-material";
 
 // @ts-ignore: Object is possibly 'null'.
 function Horizontal({
