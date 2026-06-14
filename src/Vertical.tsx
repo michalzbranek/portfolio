@@ -13,13 +13,12 @@ function Vertical() {
   return (
     <>
       <Box
-        position={"fixed"}
         sx={{
+          position: "fixed",
           pl: { xs: "0%", sm: "2%" },
           bottom: 0,
-          pb: { xs: 4, sm: 6 },
-        }}
-      >
+          pb: { xs: 4, sm: 6 }
+        }}>
         <AppBar
           sx={{
             backgroundColor: "black",

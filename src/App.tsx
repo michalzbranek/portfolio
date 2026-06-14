@@ -1,5 +1,5 @@
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Unstable_Grid2";
+import Grid from "@mui/material/Grid";
 import { CssBaseline } from "@mui/material";
 import Horizontal from "./Horizontal";
 import Vertical from "./Vertical";
@@ -35,19 +35,19 @@ function App(props: Props) {
   };
 
   const scrollToHome = () =>
-    // @ts-ignore: Object is possibly 'null'.
+    // @ts-expect-error: Object is possibly 'null'.
     homeRef.current.scrollIntoView({ behavior: "smooth" });
 
   const scrollToAbout = () =>
-    // @ts-ignore: Object is possibly 'null'.
+    // @ts-expect-error: Object is possibly 'null'.
     aboutRef.current.scrollIntoView({ behavior: "smooth" });
 
   const scrollToProjects = () =>
-    // @ts-ignore: Object is possibly 'null'.
+    // @ts-expect-error: Object is possibly 'null'.
     projectsRef.current.scrollIntoView({ behavior: "smooth" });
 
   const scrollToContact = () =>
-    // @ts-ignore: Object is possibly 'null'.
+    // @ts-expect-error: Object is possibly 'null'.
     contactRef.current.scrollIntoView({ behavior: "smooth" });
 
   return (
@@ -66,10 +66,10 @@ function App(props: Props) {
       />
       <Box sx={{ color: "white" }}>
         <Grid container>
-          <Grid xs={2}>
+          <Grid size={2}>
             <Vertical />
           </Grid>
-          <Grid xs={10}>
+          <Grid size={10}>
             <Home />
             <div ref={aboutRef}></div>
             <About />

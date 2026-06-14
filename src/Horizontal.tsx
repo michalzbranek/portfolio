@@ -14,25 +14,27 @@ import {
 // Named barrel import required under vite 8 (rolldown) — per-path default imports break CJS interop
 import { Menu as MenuIcon } from "@mui/icons-material";
 
-// @ts-ignore: Object is possibly 'null'.
+interface HorizontalProps {
+  container?: () => HTMLElement;
+  mobileOpen: boolean;
+  drawerWidth: number;
+  handleDrawerToggle: () => void;
+  scrollToHome: () => void;
+  scrollToAbout: () => void;
+  scrollToProjects: () => void;
+  scrollToContact: () => void;
+}
+
 function Horizontal({
-  // @ts-ignore: Object is possibly 'null'.
   container,
-  // @ts-ignore: Object is possibly 'null'.
   mobileOpen,
-  // @ts-ignore: Object is possibly 'null'.
   drawerWidth,
-  // @ts-ignore: Object is possibly 'null'.
   handleDrawerToggle,
-  // @ts-ignore: Object is possibly 'null'.
   scrollToHome,
-  // @ts-ignore: Object is possibly 'null'.
   scrollToAbout,
-  // @ts-ignore: Object is possibly 'null'.
   scrollToProjects,
-  // @ts-ignore: Object is possibly 'null'.
   scrollToContact,
-}) {
+}: HorizontalProps) {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
@@ -210,12 +212,6 @@ function Horizontal({
       </AppBar>
       <nav>
         <Drawer
-          PaperProps={{
-            sx: {
-              backgroundColor: "black",
-              color: "red",
-            },
-          }}
           container={container}
           variant="temporary"
           open={mobileOpen}
@@ -229,6 +225,14 @@ function Horizontal({
               boxSizing: "border-box",
               width: drawerWidth,
             },
+          }}
+          slotProps={{
+            paper: {
+              sx: {
+                backgroundColor: "black",
+                color: "red",
+              },
+            }
           }}
         >
           {drawer}
