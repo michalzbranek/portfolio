@@ -1,16 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="cs">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
+    <title>Michal Zbranek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <header class="top-nav">
+      <button class="hamburger" id="hamburger-btn" aria-label="Otevřít navigaci" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="desktop-nav" aria-label="Hlavní navigace">
+        <a href="#home">DOMŮ</a>
+        <a href="#about">O MNĚ</a>
+        <a href="#projects">PROJEKTY</a>
+        <a href="#contact">KONTAKT</a>
+      </nav>
+    </header>
+
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <nav class="drawer" id="drawer" aria-label="Mobilní navigace">
+      <a href="#home" class="drawer-link">DOMŮ</a>
+      <a href="#about" class="drawer-link">O MNĚ</a>
+      <a href="#projects" class="drawer-link">PROJEKTY</a>
+      <a href="#contact" class="drawer-link">KONTAKT</a>
+    </nav>
+
+    <aside class="sidebar" id="sidebar" aria-label="Sociální sítě"></aside>
+
+    <main class="content">
+      <section id="home" class="section section-home">
+        <h1 id="home-name"></h1>
+        <p id="home-role"></p>
+      </section>
+
+      <section id="about" class="section section-about">
+        <h2>O MNĚ</h2>
+        <p id="about-text"></p>
+      </section>
+
+      <section id="projects" class="section section-projects">
+        <h2>PROJEKTY</h2>
+        <ul class="project-grid" id="project-grid"></ul>
+      </section>
+
+      <section id="contact" class="section section-contact">
+        <h2>KONTAKT</h2>
+        <ul class="contact-list" id="contact-list"></ul>
+      </section>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
