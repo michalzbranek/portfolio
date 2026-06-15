@@ -17,13 +17,13 @@ var PROJECTS = [
   {
     title: 'Blog',
     href:  'https://michalzbranek.github.io/blog/',
-    img:   'public/blog.png',
+    img:   'images/blog.png',
     alt:   'Screenshot blogu'
   },
   {
     title: 'FC Malenovice',
     href:  'https://michalzbranek.github.io/fcmalenovice/',
-    img:   'public/fcmalenovice.png',
+    img:   'images/fcmalenovice.png',
     alt:   'Screenshot webu FC Malenovice'
   }
 ]

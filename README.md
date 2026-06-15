@@ -8,14 +8,14 @@ Otevři `js/data.js` — všechna data (jméno, projekty, kontakt, sociální s�
 
 ## Jak přidat projekt
 
-1. Přidej screenshot do složky `public/`.
+1. Přidej screenshot do složky `images/`.
 2. Přidej záznam do pole `PROJECTS` v `js/data.js`:
 
 ```js
 {
   title: 'Název projektu',
   href:  'https://...',
-  img:   'public/screenshot.png',
+  img:   'images/screenshot.png',
   alt:   'Popis obrázku pro přístupnost'
 }
 ```
@@ -49,7 +49,7 @@ portfolio/
 ├── js/
 │   ├── data.js      # OBSAH — edituj zde
 │   └── main.js      # render logika
-├── public/          # obrázky projektů (blog.png, fcmalenovice.png)
+├── images/          # obrázky projektů (blog.png, fcmalenovice.png)
 ├── CONTEXT.md       # glosář pojmů
 └── README.md        # tento soubor
 ```
